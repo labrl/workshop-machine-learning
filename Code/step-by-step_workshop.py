@@ -5,17 +5,13 @@ Created on Mon May 25 11:06:28 2020
 @author: Marc Lanovaz
 """
 
-#Set working directory (change for your path)
-import os 
-os.chdir('PATH')
-
 #Import AB data
 import pandas as pd
 
-x_ab = pd.read_csv('x_original_data.csv')
+x_ab = pd.read_csv('x_ABdata.csv')
 x_ab = x_ab.values
 
-y_ab = pd.read_csv('y_original_data.csv', header = None)
+y_ab = pd.read_csv('y_ABdata.csv', header = None)
 y_ab = (y_ab.values).flatten()
 
 #Import IWT data
@@ -25,8 +21,8 @@ y_iwt = iwt.values[:,4]
 
 #Import VS data
 import numpy as np
-x_vs = np.load('x_all.npy')
-y_vs = np.load('y_all.npy')
+x_vs = np.load('x_VS.npy')
+y_vs = np.load('y_VS.npy')
 
 #Standardize values for iwt
 from sklearn import preprocessing

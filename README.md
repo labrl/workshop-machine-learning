@@ -28,10 +28,11 @@ The last line of your Anaconda Prompt or Terminal screen should begin with "tfen
 
 To install the necessary packages. Run the following code sequentially. Whenever you are prompted to Proceed, press on “y” followed by the enter key: 
 ```
-conda install spyder
+conda install spyder=4.2.5
 conda install pandas
 conda install scikit-learn
 conda install tensorflow
+conda install openpyxl
 ```
 
 ## Step 5 – Opening Integrated Development Environment
@@ -53,5 +54,5 @@ Enter all the Python code in the left panel of the screen. To run your code, hig
 Note that all code entered in Python is case sensitive. 
 
 
-These instructions were adapted with permission from “Tutorial: Applying machine learning in behavioral research” by S. Turgeon and M. J. Lanovaz, 2020, Perspectives on Behavior Science, [https://doi.org/10.1007/s10803-020-04735-6](https://doi.org/10.1007/s10803-020-04735-6). © Association for Behavior analysis International. 
+These instructions were adapted with permission from “Tutorial: Applying machine learning in behavioral research” by S. Turgeon and M. J. Lanovaz, 2020, Perspectives on Behavior Science, [https://doi.org/10.1007/s40614-020-00270-y](https://doi.org/10.1007/s40614-020-00270-y). © Association for Behavior analysis International. 
  
