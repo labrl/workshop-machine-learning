@@ -43,11 +43,12 @@ spyder
 ```
 The following screen should appear: 
 
+![Spyder Screenshot](https://raw.githubusercontent.com/labrl/workshop-machine-learning/master/Assets/spyder.png)
 
 
 You should first set the working the directory. The working directory is the folder in which you have downloaded or saved your data (.csv) files. To do so, you may click on the opened folder icon in the upper right corner and select the appropriate folder.
 
-Enter all the Python code in the left panel of the screen. To run your code, highlight it and click on the “Run selection or current line” button in the toolbar. When you run code, any warnings, errors, or printed information will appear in the console (lower right panel). You may also explore the variables in the Variable Explorer in the upper right panel. 
+Enter all the Python code in the left panel of the screen. To run your code, highlight it and click on the “Run selection or current line” or the ![Run Selection Button](https://raw.githubusercontent.com/labrl/workshop-machine-learning/master/Assets/button.png) button in the toolbar. When you run code, any warnings, errors, or printed information will appear in the console (lower right panel). You may also explore the variables in the Variable Explorer in the upper right panel. 
 
 Note that all code entered in Python is case sensitive. 
 
